@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
 </head>
+
+
 <body>
-    <h1>Historia de <abbr title="Hipertext Markup Language"><b>HTML</b></abbr></h1>
+    <header>
+        <h1>Historia de <abbr title="Hipertext Markup Language"><b>HTML</b></abbr></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#evolucion">Evolución de HTML</a></li>
+            <li><a href="#ejemplo">Ejemplo de Formato Original</a></li>
+            <li><a href="#caracteristicas">Características de HTML</a></li>
+            <li><a href="#actualidad">HTML en la Actualidad</a></li>
+        </ul>
+    </nav>
+
+    <main>
     <section>
         <p><abbr title="Hipertext Markup Language"><b>HTML</b></abbr> fue ideado por <i>Tim Berners-Lee</i>, un físico británico que trabajaba en el CERN, 
             a finales de la década de 1980, con el objetivo de facilitar el intercambio de 
@@ -17,7 +31,7 @@
             Language) y permitió que los documentos fueran accesibles en cualquier computadora, 
             sentando las bases de la web moderna.</p>
         
-        <h2>Evolución y estandarización</h2>
+        <h2 id="evolucion">Evolución y estandarización</h2>
         <p> La primera versión informal, <abbr title="Hipertext Markup Language"><b>HTML</b></abbr> 1.0, apareció alrededor de 1993 y ofrecía funcionalidades 
             básicas para crear páginas estáticas. En 1995, el IETF publicó <abbr title="Hipertext Markup Language"><b>HTML</b></abbr> 2.0, la primera especificación 
             oficial que consolidó los principios fundamentales del lenguaje. Posteriormente, el W3C (World Wide 
@@ -27,12 +41,12 @@
     </section>
 
     <section>
-        <h3>Ejemplo de formato original</h3>
+        <h3 id="ejemplo">Ejemplo de formato original</h3>
         <code>&lt;h1&gt;Historia de HTML&lt;/h1&gt;</code>
     </section>
 
     <section>
-        <h3>Características Principales de <abbr title="Hipertext Markup Language"><b>HTML</b></abbr></h3>
+        <h3 id="caracteristicas">Características Principales de <abbr title="Hipertext Markup Language"><b>HTML</b></abbr></h3>
         <ol>
             <li> HTML 2.0 (1995)</li>
             <li> HTML 3.2 (1997)</li>
@@ -74,7 +88,7 @@
     </section>
 
     <section>
-        <h2>HTML en la actualidad (una cita)</h2>
+        <h2 id="actualidad">HTML en la actualidad (una cita)</h2>
         <blockquote cite="https://keepcoding.io/blog/historia-de-html/#%C2%BFQuienes_influyen_en_la_historia_de_HTML">
             <p>Actualmente, la historia de HTML ha llevado a este lenguaje 
                 a estar vinculado a JavaScript y CSS3, en lo que la W3C ha 
@@ -89,5 +103,19 @@
                 <q cite="github.com">Una cita sin parrafo nuevo</q></p>
         </blockquote>
     </section>
+    </main>
+
+    <aside>
+        <h1>Referencias</h1>
+        <ul>
+            <li><a href="https://keepcoding.io/blog/historia-de-html/">Historia de HTML</a></li>
+            <li><a href="https://www.w3.org/TR/html52/semantics.html">Elementos Semánticos en HTML5</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Referencia de Elementos HTML</a></li>
+        </ul>
+    </aside>
+    
+    <footer>
+        <p>Escrito por Daniil Nemchenko. Universidad de Málaga. Ingeniería del Software.</p>
+    </footer>
 </body>
 </html>
